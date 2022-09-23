@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranel-Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+
+    <!-- Navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ranel.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav flex-row justify-content-center social">
+                    <li class="nav-item">
+                        <a class="social-icon" href="https://www.linkedin.com/in/ranel-ben-simman-tov-9710a4244/">
+                            <i class="ri-linkedin-fill"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="social-icon" href="https://github.com/ranelbe">
+                            <i class="ri-github-line"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="social-icon" href="https://www.youtube.com/channel/UCDl15UwIRMCSXSwezvaSJHg">
+                            <i class="ri-youtube-line"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="social-icon" href="https://wa.me/0508765565">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Home -->
+    <section id="home" class="d-flex align-items-center min-vh-100 text-md-start">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1 class="display-2 fw-bold" data-aos="fade-up">Hi there! I am
+                        <span class="text-brand d-block">Ranel Bassat</span>
+                    </h1>
+                    <h2 data-aos="fade-up" data-aos-delay="100" class="display-6 mt-3 mb-5">
+                        I am a
+                        <div id="text"></div>
+                        <div id="cursor"></div>
+                    </h2>
+                    <div data-aos="fade-up" data-aos-delay="200">
+                        <a href="#contact" class="btn btn-brand me-2">Contact</a>
+                        <a href="./assets/files/Ranel Ben Simman Tov CV.pdf" class="btn btn-brand2" download="Ranel CV"
+                            target="_blank"> Download CV
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="./assets/images/avatar.jpg" alt="avatar" class="img-thumbnail">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section-padding section-connector">
+        <div class="container">
+            <div class="row justify-content-center" data-aos="fade-up">
+                <div class="col-md-8">
+                    <div class="section-title">
+                        <h1 class="display-6 fw-bold">About Me</h1>
+                        <div class="line"></div>
+                    </div>
+                    <p>
+                        I am a tech-savvy, auto-didact Software Developer.
+                        Third-year Computer Science student at Hadassah Academic College, Jerusalem.
+                        I am mostly skilled in C++ | C | Python.
+                        I have experience with HTML5, CSS3, Bootstrap, JavaScript, Linux.
+                        Excellent interpersonal skills, a team player.
+                        A fast learner that loves challenges, and has a strong work ethic.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+                <div class="col-md-4">
+                    <h6>HTML5, CSS3, Bootstrap</h6>
+                    <div class="progress mb-4">
+                        <div class="progress-bar progress-brand" role="progressbar" aria-label="Success example"
+                            style="width:95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            95%
+                        </div>
+                    </div>
+                    <h6>C & C++</h6>
+                    <div class="progress mb-4">
+                        <div class="progress-bar progress-brand" role="progressbar" aria-label="Success example"
+                            style="width:95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                            95%
+                        </div>
+                    </div>
+                    <h6>Python</h6>
+                    <div class="progress">
+                        <div class="progress-bar progress-brand" role="progressbar" aria-label="Success example"
+                            style="width:85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                            85%
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work -->
+    <section id="work" class="section-padding section-connector">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title" data-aos="fade-up">
+                        <h1 class="display-6 fw-bold">Work</h1>
+                        <p>Here is a collection of my recent projects.</p>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-5">
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <img src="./assets/images/work-img1.png" alt="" class="img-thumbnail">
+                    <div class="pt-3">
+                        <h4>Pengi Adventures</h4>
+                        <p>Fun adventure game.
+                            Written in C++ using the SFML library.</p>
+                        <a href="https://github.com/ranelbe/Pengi-Adventures" class="custom-link">
+                            <span>Read More</span>
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <img src="./assets/images/work-img2.png" alt="" class="img-thumbnail">
+                    <div class="pt-3">
+                        <h4>Circle the Cat</h4>
+                        <p>Trapping puzzle game.
+                            Written in C++ using the SFML library.</p>
+                        <a href="https://github.com/ranelbe/Circle-the-Cat" class="custom-link">
+                            <span>Read More</span>
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <img src="./assets/images/work-img3.png" alt="" class="img-thumbnail">
+                    <div class="pt-3">
+                        <h4>Save the King</h4>
+                        <p>Fun adventure game.
+                            Written in C++ using the SFML library.</p>
+                        <a href="https://github.com/ranelbe/Save-the-King" class="custom-link">
+                            <span>Read More</span>
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <img src="./assets/images/work-img4.png" alt="" class="img-thumbnail">
+                    <div class="pt-3">
+                        <h4>Portfolio</h4>
+                        <p>My portfolio.
+                            Built using html5, css3, bootstrap and js.</p>
+                        <a href="#" class="custom-link">
+                            <span>Read More</span>
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="section-padding section-connector">
+        <div class="container">
+            <div class="row">
+                <div class="col-12" data-aos="fade-up" data-aos-delay="100">
+                    <div class="section-title text-center">
+                        <h1 class="display-6 fw-bold">Education & Experiance</h1>
+                        <p>Details about my education and experience.</p>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row gy-5 text-md-start">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-12" data-aos="fade-up" data-aos-delay="100">
+                            <div class="eduexp p-5 pt-0">
+                                <h5>Hadassah Academic College, B.Sc Computer Science</h5>
+                                <small class="text-brand">2020 - 2022</small>
+                                <p class="mb-0">Third-year Computer Science student at Hadassah Academic
+                                    College,
+                                    Jerusalem. Current Average Grade: 95. </p>
+                            </div>
+                        </div>
+                        <div class="col-12" data-aos="fade-up" data-aos-delay="200">
+                            <div class="eduexp p-5 pt-0">
+                                <h5>Hartman High School, majoring in Computer Science</h5>
+                                <small class="text-brand">2014</small>
+                                <p class="mb-0">Graduated Hartman High School, Jerusalem, majoring in
+                                    Computer Science.
+                                    A+ grades in English and Mathematics (5 Bagrut Units).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-12" data-aos="fade-up" data-aos-delay="400">
+                            <div class="eduexp p-5 pt-0">
+                                <h5>Senior Department of Digital Technologies and Information</h5>
+                                <small class="text-brand">2019 - 2020</small>
+                                <p class="mb-0"> I was responsible of supporting
+                                    and managing over 1,200 users, working with
+                                    servers and Active Directory. I was also in
+                                    charge of planning and executing the
+                                    Information Security aspects of the ministry
+                                    officials remote work in a closed government
+                                    network.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12" data-aos="fade-up" data-aos-delay="500">
+                            <div class="eduexp p-5 pt-0">
+                                <h5>Network Administrator</h5>
+                                <small class="text-brand">2015 - 2018</small>
+                                <p class="mb-0">
+                                    I was in charge of the IT department, a role that included
+                                    supporting, managing and handling about 300 users.
+                                    Furthermore, I was responsible of
+                                    backing up servers, installing and configuring switches.
+                                    Developed a network administration software that eased our day-to-day
+                                    job, as part
+                                    of a team formed by
+                                    me and my colleagues.
+                                    Accredited as a Network Administrator by the Teleprocessing
+                                    Corps of the IDF.
+                                    Won the Brigadier General's Excellency Award for the year 2017.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section-connector">
+        <div class="container section-padding">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title text-center" data-aos="fade-up" data-aos-delay="100">
+                        <h1 class="display-6 fw-bold">Contact</h1>
+                        <p>Please feel free to contact me 😀</p>
+                        <div class="line"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8" data-aos="fade-up" data-aos-delay="200">
+                    <form class="row g-3">
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" placeholder="Name" name="name">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input type="text" class="form-control" placeholder="Phone Number" name="phone">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <input type="email" class="form-control" placeholder="Email Address" name="email"
+                                id="email">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <input type="text" class="form-control" placeholder="Enter Subject" name="subject">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <textarea name="" class="form-control" placeholder="Enter Your Message" rows="6"
+                                name="Message"></textarea>
+                        </div>
+                        <div class="form-group text-center col-md-12">
+                            <button class="btn btn-brand mt-3">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-top">
+                <div class="container d-flex justify-content-center">
+                    <div class="row g-5 text-md-start">
+                        <div class="col-md-4">
+                            <h4><a href="#" class="text-white">Ranel</a></h4>
+                            <ul class="navbar-nav flex-row justify-content-center">
+                                <li class="nav-item">
+                                    <a class="social-icon"
+                                        href="https://www.linkedin.com/in/ranel-ben-simman-tov-9710a4244/">
+                                        <i class="ri-linkedin-fill"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="social-icon" href="https://github.com/ranelbe">
+                                        <i class="ri-github-line"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="social-icon"
+                                        href="https://www.youtube.com/channel/UCDl15UwIRMCSXSwezvaSJHg">
+                                        <i class="ri-youtube-line"></i></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="social-icon" href="https://wa.me/0508765565">
+                                        <i class="ri-whatsapp-line"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Quick Links</h4>
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#work">Work</a></li>
+                                <li><a href="#resume">Resume</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h4>Contact</h4>
+                            <ul>
+                                <li>Email:<br> ranelbe@gmail.com</li>
+                                <li>Phone:<br> (+972-0508765565)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+
+</html>
