@@ -257,6 +257,7 @@ img {
     top: 0;
 }
 
+/* Contact */
 #contact .form-control {
     border-radius: 0;
 }
@@ -273,7 +274,7 @@ img {
 /* Footer */
 footer {
     background-color: var(--c-dark);
-    padding-top: 80px;
+    padding: 80px 0 40px;
 }
 
 footer h4 {
@@ -281,7 +282,6 @@ footer h4 {
     margin-bottom: 24px;
 }
 
-footer p,
 footer li,
 footer li a {
     color: rgba(255, 255, 255, 0.7);
@@ -296,13 +296,7 @@ footer ul li {
     margin-top: 6px;
 }
 
-.footer-top {
-    padding-bottom: 40px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
 /*typewriter */
-
 #text {
     display: inline-flex;
     color: var(--c-dark);
